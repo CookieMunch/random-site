@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> LAB 6 </title>
+	<meta charset="UTF-8">
+	<meta name="description" content="CPS530 lab6">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		h1 {text-align:center ;color: teal; font-family: verdana;}
+		div {text-align:center}
+	</style>
+	<script>
+	function validateForm() {
+		var name = document.getElementById('userName');
+		var address = document.getElementById('userAddress');
+		var phone = document.getElementById('userPhone');
+		var letterExpression = /^[A-Za-z ]+$/;
+		var phoneExpression = /^[\d]{3}-[\d]{3}-[\d]{4}$/;
+
+		if (name.value.length == 0 || name.value.length == 0 || name.value.length == 0)
+		{
+			alert("All fields must be filled in");
+			return false;
+		}
+		else if (!name.value.match(letterExpression))
+		{
+			alert("Names must be only letters and spaces");
+			return false;
+		}
+		else if (!phoneExpression.test(phone.value))
+		{
+			alert("Fill phone in the proper format please");
+			return false;
+		}
+		return true;
+	}
+	function submitForm(action)
+  {
+      document.getElementById('submission').action = action;
+  }
+	</script>
+</head>
+<body>
+
+<h1>
+	ENTER YOUR PERSONAL INFORMATION (or not)
+</h1>
+
+<form id="submission" onSubmit="return validateForm()" method="post" action="re.gt">
+	Name: <input id="userName" type="text" name="name" style="width:100%" placeholder="No numbers please"> <br><br>
+	Address: <input id="userAddress" type="text" name="address" style="width:100%" placeholder="Enter full address"> <br><br>
+	Phone Number: <input id="userPhone" type="text" name="phone" style="width:100%" placeholder="XXX-XXX-XXXX"> <br><br>
+	<input type="submit" value="SEND TO RUBY" onclick="submitForm('http://www2.scs.ryerson.ca:/~j4hsiung/cgi-bin/lab6.rb')">
+	<input type="submit" value="SEND TO PYTHON" formaction="http://www2.scs.ryerson.ca:/~j4hsiung/cgi-bin/lab6.py">
+</form>
+
+</body>
+</html>

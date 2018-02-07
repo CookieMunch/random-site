@@ -1,0 +1,4 @@
+AuthType Digest 
+AuthName "restricted area"  
+AuthUserFile /home/j4hsiung/public_html/.htdigest  
+require valid-user

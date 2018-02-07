@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> LAB 01 </title>
+
+	<style>
+		h1 {text-align:center ;color: teal; font-family: verdana;}
+		div {text-align:center}
+	</style>
+</head>
+<body>
+
+<h1>
+	LAB 01
+</h1>
+
+<p> Loading... </p>
+<progress value="33" max="100" style="hover"></progress>
+
+
+
+<ul>
+	<li> hello </li>
+	<li> world </li>
+	<li> FOO </li>
+	<li> BAR </li>
+</ul>
+<div style="color:#03A048; font: 1.6em Arial">
+	Jason Hsiung <br>
+	ID: 500525895
+</div>
+
+<div style="padding-top:1em;">
+	<a href="technical_report.html">The technical report link</a> <br>
+	<a href="Validation.html">The validation link</a>
+</div>
+</body>
+</html>

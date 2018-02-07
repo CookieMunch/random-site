@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://www.scs.ryerson.ca/~j4hsiung/$1 [R,L]
+
+<If "%{HTTPS} == 'on'">
+
+AuthType Digest 
+AuthName "restricted area"  
+AuthUserFile /home/j4hsiung/public_html/.htdigest  
+require valid-user
+
+</If>

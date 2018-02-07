@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<!-- test version for non bootstrap version-->
+<html>
+<head>
+	<title> LAB 04 Part 2 </title>
+	<meta charset="UTF-8">
+	<meta name="description" content="CPS530 lab4 part 2">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	-->
+</head>
+<body>
+<!-- method="post" -->
+<div>
+	<h2 style="text-align:center"> Enter Your Info </h2>
+	<form action="http://www2.scs.ryerson.ca/~j4hsiung/cgi-bin/lab4p2.cgi">
+		Name:
+		<input type="text" name="name" style="width:100%">
+
+		<h3> What color do you like? </h3>
+		<label for="red">Red: </label>
+		<input type="radio" name="color" id="red" value="red">
+		<label for="blue">Blue: </label>
+		<input type="radio" name="color" id="blue" value="blue">
+		<label for="green">Green: </label>
+		<input type="radio" name="color" id="green" value="green">
+		<label for="orange">Orange: </label>
+		<input type="radio" name="color" id="orange" value="orange">
+		<label for="purple">Purple: </label>
+		<input type="radio" name="color" id="purple" value="purple">
+
+		<h3> What do you like? </h3>
+		Apple: <input type="checkbox" name="food" value="apple">
+		Banana: <input type="checkbox" name="food" value="banana">
+		Meat only: <input type="checkbox" name="food" value="meat">
+
+		<h3> Are you from? </h3>
+		<select name="country">
+			<option value="Canada">Canada</option>
+			<option value="US">US</option>
+			<option value="OUTER SPACE">OUTER SPACE</option>
+		</select>
+		<br><br>
+		<input type="submit">
+		<input type="reset">
+	</form>
+</div>
+<br>
+<div style="text-align:center">
+	Jason Hsiung <br>
+	ID: 500525895
+</div>
+
+
+</body>

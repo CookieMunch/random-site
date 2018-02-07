@@ -1,0 +1,43 @@
+.warningLabel {
+	color:#90A4AE;
+	text-align: center;
+}
+div.menubar{
+	background-color:lightcyan;
+}
+.menubarfont {
+	font-weight:bold;
+	font-size:14px;
+	color:steelblue;
+	text-shadow: 1px 1px 7px #B3E5FC;
+}
+
+.bluesytle {
+	font-family:verdana,arial,helvetica;
+	color:#336699;
+	background-color:#f9feff;
+}
+
+img.rightsideA{
+	float: right;
+	padding: 10px;
+}
+
+h1{
+	text-shadow: 1px 1px 2px lightsteelblue;
+	color:slateblue;
+}
+
+ol::after{
+	content: "__̴ı̴̴̡̡̡ ̡͌l̡̡̡ ̡͌l̡*̡̡ ̴̡ı̴̴̡ ̡̡͡|̲̲̲͡͡͡ ̲▫̲͡ ̲̲̲͡͡π̲̲͡͡ ̲̲͡▫̲̲͡͡ ̲|̡̡̡ ̡ ̴̡ı̴̡̡ ̡͌l̡̡̡̡.___";
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+
+@font-face {
+    font-family: credits;
+    src:url(../Titillium-Regular.otf);
+    }
+  
+div.credits {font-family:credits; font-size:1.5em; color:lightslategrey; padding:1em; text-align:center; }

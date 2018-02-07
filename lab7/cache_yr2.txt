@@ -1,0 +1,31 @@
+
+    <tracks>
+    	<radioname>Yimago Radio 2</radioname>
+        <rank>1</rank>
+    	<isradionomy>1</isradionomy>
+        <radurl>http://www.radionomy.com/yimago-radio-2</radurl>
+        <track>
+        	<uniqueid>4277799457</uniqueid>
+        	<title>Westside Pride</title>
+            <artists>Baba B</artists>
+            <starttime>2017-11-15 16:37:17.277</starttime>
+            <playduration>182757</playduration>
+            <current>1</current>
+            
+                    <cover>http://i3.radionomy.com/tracks/232/dc8ee2cf-be4b-49d0-b3f4-6b75bee45a6d?radiouid=8284da0b-1ab2-4aae-b779-3eecaf7c584e</cover>
+                    
+                 
+            	
+            
+				
+            	<callmeback>180430</callmeback>
+                
+			
+			
+			
+			
+        </track> 
+        
+        
+    </tracks>
+	
